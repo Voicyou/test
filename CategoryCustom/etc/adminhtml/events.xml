@@ -3,4 +3,7 @@
     <event name="catalog_category_prepare_save">
         <observer name="category_save_observer" instance="Sourabh\CategoryCustom\Observer\CategorySaveObserver" />
     </event>
+    <event name="catalog_product_save_after">
+        <observer name="product_save_observer" instance="Sourabh\CategoryCustom\Observer\ProductSaveObserver" />
+    </event>
 </config>
